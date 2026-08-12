@@ -166,33 +166,4 @@ Can search/filter products, add item quantities to cart, check out with address 
 
 
 
-# 1. Navigate to the backend folder
-cd backend
 
-# 2. Create a virtual environment
-python -m venv venv
-
-# 3. Activate the virtual environment
-.\venv\Scripts\activate
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Run database migrations (automatically seeds SQLite if MySQL isn't set up yet)
-python manage.py migrate
-
-# 6. Populate the database with products, reviews, customer and admin accounts
-python manage.py seed_db
-
-# 7. Start the backend development server
-python manage.py runserver
-
-
-# 1. Navigate to the frontend folder
-cd frontend
-
-# 2. Install Node modules
-npm install
-
-# 3. Start the Vite development server
-npm run dev
